@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>IMC</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+<script>
+let peso=prompt("Digite o seu peso");
+let altura=prompt("Digite sua altura");
+    imc=peso/(altura*altura)
+    if(peso<18 || peso>=25)
+        alert("Peso ok!");
+    else if (peso>18)
+        alert("Sobpeso");
+    else (peso<25)
+        alert("Sobrepeso");  
+</script>    
+</body>
+</html>
